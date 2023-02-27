@@ -1,6 +1,6 @@
 import os
 from flask import Flask
-from flask_restful import Resource, apllication
+from flask_restful import Resource, application
 from application.config import LocalDevelopmentConfig
 from application.database import db
 

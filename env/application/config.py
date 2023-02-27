@@ -10,5 +10,5 @@ class Config():
 
 class LocalDevelopmentConfig(Config):
     DEBUG = True
-    SQLITE_DB_DIR = os.path,join(basedir,'../db_directory')
+    SQLITE_DB_DIR = os.path.join(basedir,'../db_directory')
     SQLALCHEMY_DATABASE_URI = 'sqlite:///' + os.path.join(SQLITE_DB_DIR,'socialapp.sqlite3')
